@@ -1,0 +1,31 @@
+button{
+    padding: 10px;
+    margin-left: 40px;
+    border-radius: 5px;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+}
+#green{
+    background-color: green;
+}
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
+#random{
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    background-size: 300%;
+    animation: rainbow 5s linear infinite;
+}
+@keyframes rainbow{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 100%;
+    }
+}
